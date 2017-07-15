@@ -1,25 +1,25 @@
 ".source.js":
   "anonymous function":
     prefix: "f"
-    body: "function (${1:arguments}) { ${0} }"
+    body: "function(${1:arguments}){ ${0} }"
   "named function":
     prefix: "fn"
     body: """
-    function ${1:name} (${2:arguments}) {
+    function ${1:name}(${2:arguments}){
     \t${0}
     }
     """
   "async function":
     prefix: "asf"
     body: """
-    async function (${1:arguments}) {
+    async function(${1:arguments}){
     \t${0}
     }
     """
   "immediately-invoked function expression":
     prefix: "iife"
     body: """
-    ;(function (${1:arguments}) {
+    ;(function(${1:arguments}){
     \t${0}
     })(${2})
     """
