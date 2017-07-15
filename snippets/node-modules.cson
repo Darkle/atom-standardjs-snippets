@@ -14,7 +14,7 @@
   "module as class":
     prefix: "mc"
     body: """
-    var ${1:name} = (function () {
+    var ${1:name} = (function() {
     \tfunction ${1:name}(${2:arguments}) {
     \t\t${0}
     \t}
