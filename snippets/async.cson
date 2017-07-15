@@ -4,8 +4,8 @@
     body: "await ${0}"
   "Node callback":
     prefix: "cb"
-    body: """function (err, ${1:value}) {
-    \tif (err) throw err
+    body: """function(err, ${1:value}) {
+    \tif(err) throw err
     \t${0}
     }"""
   "Promise":
